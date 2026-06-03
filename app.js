@@ -1,7 +1,7 @@
 // 1. Supabase 프로젝트에서 아래 두 값을 복사해서 넣으세요.
 // Supabase Dashboard → Project Settings → API
-const SUPABASE_URL = "여기에_SUPABASE_PROJECT_URL";
-const SUPABASE_ANON_KEY = "여기에_SUPABASE_ANON_PUBLIC_KEY";
+const SUPABASE_URL = "https://usuhfhvzlqwyyqoyuhsf.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_HWgqI6MrsgKdxiC7KLxqZg_Qjf0dV3k";
 
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
